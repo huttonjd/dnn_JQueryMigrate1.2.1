@@ -1,0 +1,28 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="JqueryMigrate121" type="Module" version="01.02.01">
+	 <friendlyName>Jquery Migrate 1.2.1</friendlyName>
+      <description>Will add Jquery Migrate 1.2.1 to DNN enviornment</description>
+      <iconFile></iconFile>
+      <owner>
+        <name>John Hutton</name>
+        <organization>Hutton Engineering</organization>
+        <url><![CDATA[<a href="http://www.huttonengineering.com">huttonengineering.com</a>]]></url>
+        <email>huttonjd@hotmail.com</email>
+      </owner>
+      <dependency type="coreversion">01.02.01</dependency>
+      <license src="Installation\EULA.html" />
+      <releaseNotes src="Installation\ReleaseNotes\Release.txt" />
+      <components>
+		 <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Resources</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+	  </components>
+	</package>
+  </packages>
+</dotnetnuke>	  
